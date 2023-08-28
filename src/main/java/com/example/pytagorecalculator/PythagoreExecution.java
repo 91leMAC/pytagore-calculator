@@ -9,7 +9,6 @@ public class PythagoreExecution {
             System.out.println("A will be the hypotenuse of the rectangle, so B and C are the variable that we \"know\"");
 
             // Set the variables
-            int ab;
             int ac;
             int cb;
 
@@ -22,7 +21,7 @@ public class PythagoreExecution {
             System.out.println("Mesure for ac lenght?");
             String text = scanner.nextLine();
 
-            
+
                 System.out.println("Please write an accepted number (without any letter)");
 
                 ac = Integer.parseInt(text);
