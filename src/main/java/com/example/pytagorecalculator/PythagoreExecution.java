@@ -61,13 +61,12 @@ public class PythagoreExecution
                 {
 
                     cb = Integer.parseInt(cbInput);
-                    System.out.println("AC lenght are " + cb + " right now !");
+
 
                     answerToCB = cb * cb;
 
                 }
             }
-
 
             int TheoremExecution = answerToAC + answerToCB;
 
